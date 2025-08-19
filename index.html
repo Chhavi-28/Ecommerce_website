@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My E-Commerce Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Lifestyle Store</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Electronics</a></li>
+        <li><a href="#">Clothing</a></li>
+        <li><a href="#">Accessories</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="filters">
+    <h2>Filter Products</h2>
+    <label>Price Range:</label>
+    <select id="priceFilter">
+      <option value="all">All</option>
+      <option value="0-1000">Under ₹1000</option>
+      <option value="1000-5000">₹1000 - ₹5000</option>
+      <option value="5000">Above ₹5000</option>
+    </select>
+  </section>
+
+  <main>
+    <div id="product-list" class="product-grid">
+      <!-- Products will load here -->
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 My Store | Designed with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
